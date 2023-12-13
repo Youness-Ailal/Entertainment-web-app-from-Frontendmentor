@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import TrendingSkeleton from "./skeleton/TrendingSkeleton";
 import Skeleton from "react-loading-skeleton";
 
-const IMAGE_URL = "https://www.themoviedb.org/t/p/w780";
+const IMAGE_URL = "https://www.themoviedb.org/t/p/w500";
 const IMAGE_URL_LOW = "https://www.themoviedb.org/t/p/w92";
 
 function TrendingMovies() {

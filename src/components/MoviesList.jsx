@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 import { useMovies } from "../context/MoviesAndSeriesProvider";
 
-const IMAGE_URL = "https://www.themoviedb.org/t/p/w780";
+const IMAGE_URL = "https://www.themoviedb.org/t/p/w500";
 const IMAGE_URL_LOW = "https://www.themoviedb.org/t/p/w92";
 
 function MoviesList({ movies }) {
