@@ -1,0 +1,46 @@
+.actors {
+  flex-direction: column;
+  gap: 2rem;
+  max-width: calc(100dvw - 68rem);
+  overflow-x: hidden;
+  @media (max-width: 1100px) {
+    max-width: calc(100dvw - 5rem);
+  }
+  &__title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+.actor {
+  height: 35rem;
+  width: 20rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 26rem 5rem 5rem;
+  border-radius: var(--radius-sm);
+
+  overflow: hidden;
+  background-color: var(--bg-secondary);
+  &__image {
+    height: 25rem;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  p {
+    line-height: 1;
+    font-size: 1.8rem;
+    padding: 1rem;
+  }
+  &__name2 {
+    color: var(--text-grey);
+  }
+}
+.swiper-slide-actor {
+  height: 35rem;
+  width: 20rem;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}

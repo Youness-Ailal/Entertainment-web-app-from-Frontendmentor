@@ -1,0 +1,27 @@
+.main {
+  // max-width: 170rem;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3rem;
+  align-items: start;
+  @media (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.font-lg {
+  font-size: 3rem;
+}
+.font-bg {
+  font-size: 2rem;
+}
+.font-md {
+  font-size: 1.8rem;
+}
+.font-sm {
+  font-size: 1.6rem;
+}

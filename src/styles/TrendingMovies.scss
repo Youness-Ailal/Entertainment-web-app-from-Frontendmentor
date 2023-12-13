@@ -1,0 +1,27 @@
+.trending {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.trendincard {
+  height: 30rem;
+  width: 45rem;
+  border-radius: var(--radius-md);
+
+  background-color: var(--bg-secondary);
+  background-position: center;
+  background-size: 120%;
+
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: inset 0 -10rem 8rem 0 rgba(0, 0, 0, 0.8);
+
+  transition: 0.2s;
+}
+.swiper-slide {
+  height: 30rem;
+  width: 45rem;
+}

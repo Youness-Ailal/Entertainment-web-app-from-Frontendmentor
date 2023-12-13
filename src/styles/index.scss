@@ -1,0 +1,74 @@
+:root {
+  --bg-primary: #11141e;
+  --bg-secondary: #161d2f;
+  --bg-3: #121621;
+  --text-primary: #f8f9fc;
+  --text-details: #d1d5db;
+  --text-secondary: #64748b;
+  --text-grey: #9ca3af;
+  --border-primary: rgb(156, 163, 175, 0.1);
+  --radius-sm: 0.4rem;
+  --radius-md: 1rem;
+  --radius-bg: 1.2rem;
+  --red: #ee3a3a;
+  --red-hover: #ed2c2c;
+}
+@font-face {
+  font-family: geomatrix;
+  src: url("../assets/fonts/GeomatrixLight.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: geomatrix;
+  src: url("../assets/fonts/Geomatrix.ttf");
+  font-weight: 400, 500;
+}
+@font-face {
+  font-family: geomatrix;
+  src: url("../assets/fonts/GeomatrixMedium.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: geomatrix;
+  src: url("../assets/fonts/GeomatrixBold.ttf");
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: clamp(8px, 1vw, 10px);
+}
+
+a,
+button,
+input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+  transition: 0.2s;
+}
+a,
+button {
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+body {
+  min-height: 100dvh;
+  background-color: var(--bg-primary);
+  max-width: 100dvw;
+  // font-family: geomatrix, sans-serif;
+  font-family: sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+#root {
+  width: 100%;
+}

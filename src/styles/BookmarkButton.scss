@@ -1,0 +1,20 @@
+.bookmark-btn {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 4rem;
+  border: none;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20rem;
+  align-self: end;
+  opacity: 0.8;
+  &__icon {
+    transition: 0.2s;
+    font-size: 1.8rem;
+  }
+  &:hover {
+    scale: 1.05;
+    opacity: 1;
+  }
+}

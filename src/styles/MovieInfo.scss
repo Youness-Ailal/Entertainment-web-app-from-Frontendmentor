@@ -1,0 +1,21 @@
+.movie-info {
+  margin-top: auto;
+  color: var(--text-details);
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    list-style: none;
+    li {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-weight: 300;
+    }
+  }
+  h3 {
+    margin-top: 0.4rem;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+}

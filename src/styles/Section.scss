@@ -1,0 +1,11 @@
+.section {
+  max-width: calc(100dvw - 20rem);
+  overflow: hidden;
+  p {
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 700px) {
+    max-width: calc(100dvw - 6rem);
+  }
+}
