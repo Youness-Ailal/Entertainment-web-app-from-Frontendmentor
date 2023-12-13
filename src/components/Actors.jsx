@@ -11,11 +11,7 @@ function Actors({ actors }) {
   return (
     <div className="actors">
       <p className="actors__title">Top Billed Cast</p>
-      <Swiper
-        slidesPerView={"auto"}
-        spaceBetween={10}
-        loop={true}
-        freeMode={true}>
+      <Swiper slidesPerView={"auto"} spaceBetween={10}>
         {actors.map(actor => {
           const { character, name, profile_path: profilePath, id } = actor;
           const profileImageSrc = profilePath
