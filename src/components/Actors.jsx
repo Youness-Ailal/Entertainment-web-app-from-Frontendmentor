@@ -4,7 +4,9 @@ import "swiper/css";
 
 import "../styles/Actors.scss";
 
-import avatar from "../assets/images/avatar.svg";
+// import avatar from "../assets/images/avatar.svg";
+const avatar =
+  "https://e7.pngegg.com/pngimages/84/165/png-clipart-united-states-avatar-organization-information-user-avatar-service-computer-wallpaper.png";
 const IMAGE_URL = "https://www.themoviedb.org/t/p/w300";
 
 function Actors({ actors }) {
