@@ -10,7 +10,7 @@ import BookmarkButton from "./BookmarkButton";
 import Actors from "./Actors";
 import MovieDetailsSkeleton from "./skeleton/MovieDetailsSkeleton";
 
-const IMAGE_URL = "https://www.themoviedb.org/t/p/w780";
+const IMAGE_URL = "https://www.themoviedb.org/t/p/w500";
 const YOUTUBE_URL = "https://www.youtube.com/watch?v=";
 
 function MovieDetails() {
