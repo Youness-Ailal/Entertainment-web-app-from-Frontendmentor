@@ -36,7 +36,7 @@ function MovieCard({ movie, title, year, type, image, imageLow, vote }) {
       <div
         ref={ref}
         className="recommend-card__top"
-        style={{ backgroundImage: `url(${loaded ? image : imageLow})` }}>
+        style={{ backgroundImage: `url(${loaded ? image : ""})` }}>
         <BookmarkButton onClick={handelBookmark} bookmark={movie.bookmark} />
       </div>
       <div className="recommend-card__bottom">

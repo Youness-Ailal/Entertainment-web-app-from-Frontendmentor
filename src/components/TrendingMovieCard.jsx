@@ -46,7 +46,7 @@ function TrendingMovieCard({
     <article
       ref={ref}
       className="trendincard"
-      style={{ backgroundImage: `url(${loaded ? image : imageLow})` }}>
+      style={{ backgroundImage: `url(${loaded ? image : ""})` }}>
       <BookmarkButton onClick={handelBookmark} bookmark={bookmark} />
       <MovieInfo title={title} type={type} year={year} vote={vote} />
     </article>
